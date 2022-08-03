@@ -1,0 +1,92 @@
+---
+layout: post
+title: "Damon the Bot AUG_Week_1 Newsletter"
+date: 2022-07-31
+---
+
+Hello there guys, gals and pals in between.
+
+As of 30th of July 2022 our depricated version of DamonTheBo running on
+Discord.js@12.5.0 has been publically released on github under the MIT
+License and we will not be offering new updates on this specific repository.
+Additionally we are putting the new bot version on our server and it will be
+launching on the 1st of August.
+
+Additionally we are putting the new bot version on our server and it will be launching 
+on the 1st of August. Updated client variable names as there were typos. 
+
+Added Embed Accent color to: #7ac484. 
+
+Updated Mailing module once again. 
+
+Updated server's: * unzip * git * nodejs 
+
+Added 16 Actions: 
+* Running on Android. 
+* Sweet like honey. 
+* Sweet like vinegar. 
+* Emotionally stable. 
+* Making the world question itself since 2019. 
+* Greek internet sucks. 
+* Some people just have the IQ of crayon. 
+* NodeJS V.18.5.0 32-bit. 
+* SQLite is like a 4/10 in difficulty. 
+* Do trust the racoon. 
+* What does the fox say. 
+* Burn the log. 
+* Pet ther dog. 
+* Fry the frog. 
+* Fight the fog. 
+* Slap the folk. 
+
+We have until now updated 29 commands: 
+* 8ball 
+* ban 
+* bug 
+* change 
+* clear 
+* color
+* info 
+* kick 
+* level 
+* log 
+* newsletter 
+* ping 
+* poll 
+* quote 
+* recent_news 
+* reload 
+* rps 
+* say 
+* ship 
+* suggestion 
+* unsubscribe 
+* uptime 
+* verify
+* Debug
+* Request
+* Help
+* Gif
+* Define
+* Gay
+
+We removed 2 commands:
+* urban_wotd (word of the day)
+* urban_random (you can just run !define without any args)
+
+Plans:
+* Adding more commands.
+* Adding image searching command.
+* Adding a mute command.
+* Adding an unban command
+* Releasing the bot on top.gg
+* Update the website to have a dark mode.
+* Update the topics covered in the site
+* Create a widget to show bot stats
+* Create bot level leaderboard
+* Creating a support server.
+
+Have any questions, reach out to us using this:
+damonthebot@hotmail.com
+
+Have a nice day and don't forget; you are valid!
