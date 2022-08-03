@@ -1,0 +1,9 @@
+name: DamonTheBot Dev Blog
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
+
+Email: mailto:volkovbot.info@gmail.com
+Twitter: https://www.twitter.com/
+Discord_server: https://discord.com/
+Github_Profile: https://github.com/SonSetCrow
+Github_Organisation: https://github.com/DamonTheBot
