@@ -1,0 +1,24 @@
+---
+layout: default
+title: Community News
+---
+
+<h1>{{ page.title }}</h1>
+
+<ul class="comm">
+
+  {% for post in site.news %}
+    <li>
+        <div>
+            <h1> {{post.title}} </h1> 
+            <h2> Written by:</h2>
+            <h2> Written on:</h2>
+            <h2> <a href="{{ post.url }}" title="Post Link"> </h2>
+
+            <H3> {{ post.content }} </H3>
+        </div>
+    </li>
+  {% endfor %}
+    
+</ul>
+<!-- <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>  -->

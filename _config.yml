@@ -1,4 +1,3 @@
-name: DamonTheBot Dev Blog
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
@@ -9,3 +8,11 @@ Twitter: https://www.twitter.com/
 Discord_server: https://discord.com/
 Github_Profile: https://github.com/SonSetCrow
 Github_Organisation: https://github.com/DamonTheBot
+
+#Website Info:
+Author: SonSetCrow
+name: DamonTheBot Dev Blog 
+Website: This site is used to show the development of a personal project, a discord bot; running on Discord.js@
+
+#Pack Info
+Discord_ver: 13.9.2
