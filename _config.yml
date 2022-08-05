@@ -1,5 +1,5 @@
 markdown: kramdown
-permalink: /post/:year/:month/:day/:title
+permalink: /blog/:year/:month/:day/:title
 
 Author: SonSetCrow 
 
