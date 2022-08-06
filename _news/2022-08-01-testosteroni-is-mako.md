@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Testosterony test"
 date: 2022-08-04
 ---
