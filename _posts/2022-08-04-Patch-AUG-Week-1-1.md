@@ -1,6 +1,5 @@
 ---
 layout: post
-category: releases
 title: "Damon the Bot Patch-AUG_Week_1-1"
 date: 2022-08-04
 ---

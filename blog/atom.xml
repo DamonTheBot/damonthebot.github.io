@@ -4,11 +4,11 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Community</title>
- <link href="http://damonthebot.github.io/releases/atom.xml" rel="self"/>
- <link href="http://damonthebot.github.io/releases"/>
+ <title>Blog</title>
+ <link href="http://damonthebot.github.io/blog/atom.xml" rel="self"/>
+ <link href="http://damonthebot.github.io/blog"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://damonthebot.github.io/releases</id>
+ <id>http://damonthebot.github.io/blog</id>
  <author>
    <name>SonSetCrow</name>
    <email>volkovbot.info@gmail.com</email>
