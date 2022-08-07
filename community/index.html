@@ -2,8 +2,10 @@
 layout: default
 title: Community News
 ---
-
-{% for item in site.news %}
   <h2> {{ page.title }} </h2>
-  <p><a href="{{item.url}}"> [ {{ item.date | date_to_string }} ] - {{ item.title }} </a></p>
-{% endfor %}
+
+  <ul class="posts">
+    {% for item in site.news %}
+      <li class="posts"> [ {{ item.date | date_to_string }} ] <a href="{{item.url}}">- {{ item.title }} </a></li>
+    {% endfor %}
+  </ul>
