@@ -16,3 +16,8 @@ Website: This site is used to show the development of a personal project, a disc
 
 #Pack Info
 Discord_ver: 13.9.2
+
+#Collections
+collections:
+  news:
+    output: true
