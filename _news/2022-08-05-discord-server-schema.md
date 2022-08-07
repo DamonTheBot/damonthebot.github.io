@@ -4,13 +4,6 @@ title: "Baseline channels for the discord server."
 date: 2022-08-04
 ---
 
-Exaple: 
-
-Category
- * Channel1
- * Channel2 
-------
-
 Inportant
  * Roles
  * Rules
