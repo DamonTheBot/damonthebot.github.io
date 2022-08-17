@@ -5,8 +5,8 @@ layout: default
 <h5> Written by: {{ site.Author }} on {{ page.date | date_to_string }}</h5>
 
 <div class="post">
-  <h5>Can be used in DMs: {{page.isDM}}</h5>
-  <h5>Can be used by everyone: {{page.isDev}}</h5>
+  <h4>Can be used in DMs: {{page.isDM}}</h4>
+  <h4>Can be used only by developers: {{page.isDev}}</h4>
 
   {{ content }}
 </div>
