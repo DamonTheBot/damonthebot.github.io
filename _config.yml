@@ -24,5 +24,5 @@ Discord_ver: 13.9.2
 collections:
   news:
     output: true
-  commands:
+  command:
     output: true
