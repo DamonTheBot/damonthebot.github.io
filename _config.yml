@@ -17,8 +17,9 @@ Website: This site is used to show the development of a personal project, a disc
 #Website MetaData
 meta_tags: SonSetCrow, DamonTheBot, Damon_The_Bot, Discord bot, Discord_bot, bot, dicord.js, discord javascript, SonSetCrow Bot,
 
-#NPM Pack Info
+#Variables used on the site
 Discord_ver: 13.9.2
+scrolling_text: "[   WhackABug is running until the end of November.   ]"
 
 #Collections
 collections:
