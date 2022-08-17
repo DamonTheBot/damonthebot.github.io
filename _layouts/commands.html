@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<h1>Command {{ page.title }}</h1>
+<h5> Written by: {{ site.Author }} </h5>
+<p class="meta">{{ page.date | date_to_string }}</p>
+
+<div class="post">
+
+  <div>
+    <h3>Can be used in dms: </h3>
+      {% if page.isDM == true %}
+        <h3 style="color:red;"> No </h3>
+      {% include contact.html %}
+        <h3 style="color:darkgreen;"> Yes </h3>
+      {% endif %}
+  </div>
+
+  <div>
+    <h3>Can be used by non Developers: </h3>
+      {% if page.isDev == true %}
+        <h3 style="color:red;"> No </h3>
+      {% include contact.html %}
+        <h3 style="color:darkgreen;"> Yes </h3>
+      {% endif %}
+  </div>
+
+  {{ content }}
+</div>
+
+
+<!-- style="color:red;"  style="color:rgba(255,0,0,0.5); -->

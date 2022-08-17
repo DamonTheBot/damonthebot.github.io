@@ -14,10 +14,15 @@ Author: SonSetCrow
 name: DamonTheBot Dev Blog 
 Website: This site is used to show the development of a personal project, a discord bot; running on Discord.js@
 
-#Pack Info
+#Website MetaData
+meta_tags: SonSetCrow, DamonTheBot, Damon_The_Bot, Discord bot, Discord_bot, bot, dicord.js, discord javascript, SonSetCrow Bot,
+
+#NPM Pack Info
 Discord_ver: 13.9.2
 
 #Collections
 collections:
   news:
+    output: true
+  commands:
     output: true

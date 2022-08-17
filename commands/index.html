@@ -1,0 +1,11 @@
+---
+layout: default
+title: Commands
+---
+<h2> {{ page.title }} </h2>
+
+<ul class="posts">
+  {% for item in site.commands_lst %}
+    <li class="posts"> [ {{ item.date | date_to_string }} ] <a href="{{item.url}}">- {{ item.title }} </a></li>
+  {% endfor %}
+</ul>
