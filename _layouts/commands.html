@@ -7,24 +7,19 @@ layout: default
 <p class="meta">{{ page.date | date_to_string }}</p>
 
 <div class="post">
+  <h5>Can be used in dms: </h5>
+    {% if page.isDM == true %}
+      <h5 style="color:red;"> No </h5>
+    {% include contact.html %}
+      <h5 style="color:darkgreen;"> Yes </h5>
+    {% endif %}
 
-  <div>
-    <h3>Can be used in dms: </h3>
-      {% if page.isDM == true %}
-        <h3 style="color:red;"> No </h3>
-      {% include contact.html %}
-        <h3 style="color:darkgreen;"> Yes </h3>
-      {% endif %}
-  </div>
-
-  <div>
-    <h3>Can be used by non Developers: </h3>
-      {% if page.isDev == true %}
-        <h3 style="color:red;"> No </h3>
-      {% include contact.html %}
-        <h3 style="color:darkgreen;"> Yes </h3>
-      {% endif %}
-  </div>
+  <h5>Can be used by non Developers: </h5>
+    {% if page.isDev == true %}
+      <h5 style="color:red;"> No </h5>
+    {% include contact.html %}
+      <h5 style="color:darkgreen;"> Yes </h5>
+    {% endif %}
 
   {{ content }}
 </div>
