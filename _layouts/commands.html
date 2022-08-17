@@ -1,15 +1,13 @@
 ---
 layout: default
 ---
+
 <h2>Command: {{ page.title }}</h2>
 <h5> Written by: {{ site.Author }} on {{ page.date | date_to_string }}</h5>
 
 <div class="post">
-  <h4>Can be used in DMs: {{page.isDM}}</h4>
-  <h4>Can be used only by developers: {{page.isDev}}</h4>
+  <h5>Can be used in DMs: {{page.isDM}}</h5>
+  <h5>Can be used only by developers: {{page.isDev}}</h5>
 
   {{ content }}
 </div>
-
-
-<!-- style="color:red;"  style="color:rgba(255,0,0,0.5); -->
